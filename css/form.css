@@ -1,0 +1,50 @@
+.form {
+    width: 100%;
+    font-size: 18px;
+}
+.form > .form-row {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.form > .form-row:last-of-type {
+    margin-bottom: 0px;
+}
+.form > .form-row > .label {
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 18px;
+
+}
+.form > .form-row > .input {
+    width: 100%;
+}
+.submit {
+    padding: 8px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 30px;
+    margin-right: 50px;
+    background-color: #474a7d;;
+    color: #fff;
+    font-weight: normal;
+}
+.submit:hover {
+    color: #fff;
+    background-color: #a64f7c;
+    cursor: pointer;
+}
+.sign-in {
+    color: #474a7d;;
+    margin-left: 50px;
+    line-height: 35.5px;
+    padding-top: 25%;
+    font-weight: normal;
+}
+.sign-in:hover {
+    color: #a64f7c;
+}
+span {
+    line-height: 35.5px;
+    padding-top: 25%;
+}
