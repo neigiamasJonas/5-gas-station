@@ -1,0 +1,32 @@
+.submit {
+    font-size: 15px;
+    padding: 8px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 30px;
+    background-color: #474a7d;;
+    color: #fff;
+    font-weight: normal;
+    border: 2px solid #474a7d;
+}
+.submit:hover {
+    color: #fff;
+    background-color: #a64f7c;
+    cursor: pointer;
+}
+.sign-in {
+    color: #474a7d;
+    line-height: 37px;
+    font-size: 15px;
+
+}
+.sign-in:hover {
+    color: #a64f7c;
+}
+.form span {
+    line-height: 37px;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}

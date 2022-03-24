@@ -11,40 +11,19 @@
 }
 .form > .form-row > .label {
     width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #777;
     margin-bottom: 10px;
     display: inline-block;
-    font-size: 18px;
-
 }
 .form > .form-row > .input {
     width: 100%;
+    line-height: 20px;
+    border: none;
+    border-bottom: 1px solid #777;
+    padding: 2px;
 }
-.submit {
-    padding: 8px;
-    padding-left: 45px;
-    padding-right: 45px;
-    border-radius: 30px;
-    margin-right: 50px;
-    background-color: #474a7d;;
-    color: #fff;
-    font-weight: normal;
-}
-.submit:hover {
-    color: #fff;
-    background-color: #a64f7c;
-    cursor: pointer;
-}
-.sign-in {
-    color: #474a7d;;
-    margin-left: 50px;
-    line-height: 35.5px;
-    padding-top: 25%;
-    font-weight: normal;
-}
-.sign-in:hover {
-    color: #a64f7c;
-}
-span {
-    line-height: 35.5px;
-    padding-top: 25%;
+.form > .form-row > .input:focus {
+    outline: 1px dotted #474a7d;
 }

@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gas Station</title>
+    <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/main.css">
 
 </head>
-<body class="bg-image">
+<body class="bg">
     <main class="container">
         <div class="left-column">
             <h1 class="main-title">Sign up</h1>
@@ -21,25 +22,27 @@
         </div>
 
         <div class="right-column">
-            <div class="button-x">
-                <a href="#" class="close">X</a>
-            </div>
+            <div class="close">x</div>
             <form class="form">
                 <div class="form-row">
-                    <label for="" class="label">Username</label>
-                    <input type="text" class="input">
+                    <label for="username" class="label">Username</label>
+                    <input id="username" type="text" class="input">
                 </div>
                 <div class="form-row">
-                    <label for="" class="label">Email</label>
-                    <input type="text" class="input">
+                    <label for="email" class="label">Email</label>
+                    <input id="email" type="email" class="input">
                 </div>
                 <div class="form-row">
-                    <label for="" class="label">Password</label>
-                    <input type="text" class="input">
+                    <label for="date" class="label">Date of birth</label>
+                    <input id="date" type="date" class="input">
                 </div>
                 <div class="form-row">
-                    <label for="" class="label">Repeat password</label>
-                    <input type="text" class="input">
+                    <label for="pass" class="label">Password</label>
+                    <input id="pass" type="password" class="input">
+                </div>
+                <div class="form-row">
+                    <label for="re-pass" class="label">Repeat password</label>
+                    <input id="re-pass" type="password" class="input">
                 </div>
                 <div class="form-row">
                     <button type="submit" class="submit">Get started</button>
@@ -49,6 +52,5 @@
             </form>
         </div>
     </main>
-    
 </body>
 </html>
